@@ -1,0 +1,154 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+    width: 85%;
+    font-weight: 400;
+}
+
+.conteiner-left {
+    width: 65%;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.conteiner-right {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 12%;
+    right: 25%;
+    width: 406px;
+    height: 511.95px;
+}
+
+h1 {
+    color: #5D5D7D;
+    font-size: 50px;
+    line-height: 60px;
+    Width: 300px;
+    Height: 120px;
+    margin-top: 240px;
+}
+
+p {
+    width: 550px;
+    height: 154px;
+    font-size: 22px;
+    line-height: 38px;
+    color: rgba(93, 93, 125, 0.6);
+    margin: 15px 0;
+}
+
+button {
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    width: 180px;
+    height: 42px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.link-header {
+    width: 80px;
+    height: 41px;
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: 41px;
+    margin-top: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    opacity: 0.8;
+}
+
+.link-header:active {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 800px) {
+
+    .wrapper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .conteiner-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteiner-right {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        width: auto;
+        margin: 53px 50px 0 50px;
+        }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: auto;
+        text-align: center;
+        margin: 10px 40px 0px 40px;
+    }
+
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+
+}
